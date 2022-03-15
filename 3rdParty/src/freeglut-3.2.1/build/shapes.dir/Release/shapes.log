@@ -1,0 +1,5 @@
+﻿  Building Custom Rule D:/Opengl/3rdParty/src/freeglut-3.2.1/CMakeLists.txt
+  shapes.c
+  glmatrix.c
+  正在生成代码...
+  shapes.vcxproj -> D:\Opengl\3rdParty\src\freeglut-3.2.1\build\bin\Release\shapes.exe

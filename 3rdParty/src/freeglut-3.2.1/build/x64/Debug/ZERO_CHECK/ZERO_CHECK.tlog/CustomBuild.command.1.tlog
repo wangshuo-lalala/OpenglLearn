@@ -1,0 +1,10 @@
+^D:\OPENGL\3RDPARTY\SRC\FREEGLUT-3.2.1\BUILD\CMAKEFILES\175AA95FA581A51F25F4233E88DEEE53\GENERATE.STAMP.RULE
+setlocal
+D:\software\cmake\bin\cmake.exe -SD:/Opengl/3rdParty/src/freeglut-3.2.1 -BD:/Opengl/3rdParty/src/freeglut-3.2.1/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/Opengl/3rdParty/src/freeglut-3.2.1/build/freeglut.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

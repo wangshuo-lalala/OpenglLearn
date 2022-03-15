@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="16.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <PreferredToolArchitecture>x64</PreferredToolArchitecture>
+  </PropertyGroup>
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{50BC322E-129A-390F-A427-9D40445CBBCC}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.19041.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>One</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v142</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\build\bin\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">One.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Oned</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\build\bin\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">One.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">One</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\build\bin\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">One.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">One</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\build\bin\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">One.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">One</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Debug"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Debug\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;winmm.lib;lib\Debug\freeglutd.lib;opengl32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Opengl/3rdParty/src/freeglut-3.2.1/build/lib/Debug/Oned.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Opengl/3rdParty/src/freeglut-3.2.1/build/bin/Debug/Oned.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="Release"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"Release\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;winmm.lib;lib\Release\freeglut.lib;opengl32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Opengl/3rdParty/src/freeglut-3.2.1/build/lib/Release/One.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Opengl/3rdParty/src/freeglut-3.2.1/build/bin/Release/One.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="MinSizeRel"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;winmm.lib;lib\MinSizeRel\freeglut.lib;opengl32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Opengl/3rdParty/src/freeglut-3.2.1/build/lib/MinSizeRel/One.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Opengl/3rdParty/src/freeglut-3.2.1/build/bin/MinSizeRel/One.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>
+      </ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo"</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>%(PreprocessorDefinitions);WIN32;_WINDOWS;NDEBUG;_CRT_SECURE_NO_WARNINGS;_WIN32_WINNT=0x0601;WINVER=0x0601;HAVE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\"</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>D:\Opengl\3rdParty\src\freeglut-3.2.1\src;D:\Opengl\3rdParty\src\freeglut-3.2.1\include;D:\Opengl\3rdParty\src\freeglut-3.2.1\build;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <Link>
+      <AdditionalDependencies>glu32.lib;opengl32.lib;winmm.lib;lib\RelWithDebInfo\freeglut.lib;opengl32.lib;winmm.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>D:/Opengl/3rdParty/src/freeglut-3.2.1/build/lib/RelWithDebInfo/One.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/Opengl/3rdParty/src/freeglut-3.2.1/build/bin/RelWithDebInfo/One.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\Opengl\3rdParty\src\freeglut-3.2.1\CMakeLists.txt">
+      <UseUtf8Encoding>Always</UseUtf8Encoding>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule D:/Opengl/3rdParty/src/freeglut-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+D:\software\cmake\bin\cmake.exe -SD:/Opengl/3rdParty/src/freeglut-3.2.1 -BD:/Opengl/3rdParty/src/freeglut-3.2.1/build --check-stamp-file D:/Opengl/3rdParty/src/freeglut-3.2.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\FreeGLUTConfig.cmake.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeCCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeCXXCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeRCCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeSystem.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\config.h.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\freeglut.pc.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\freeglut.rc.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\src\fg_version.h.in;D:\software\cmake\share\cmake-3.21\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\software\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckFunctionExists.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFiles.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckTypeSize.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindOpenGL.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\software\cmake\share\cmake-3.21\Modules\GNUInstallDirs.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\software\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule D:/Opengl/3rdParty/src/freeglut-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+D:\software\cmake\bin\cmake.exe -SD:/Opengl/3rdParty/src/freeglut-3.2.1 -BD:/Opengl/3rdParty/src/freeglut-3.2.1/build --check-stamp-file D:/Opengl/3rdParty/src/freeglut-3.2.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\FreeGLUTConfig.cmake.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeCCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeCXXCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeRCCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeSystem.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\config.h.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\freeglut.pc.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\freeglut.rc.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\src\fg_version.h.in;D:\software\cmake\share\cmake-3.21\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\software\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckFunctionExists.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFiles.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckTypeSize.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindOpenGL.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\software\cmake\share\cmake-3.21\Modules\GNUInstallDirs.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\software\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule D:/Opengl/3rdParty/src/freeglut-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+D:\software\cmake\bin\cmake.exe -SD:/Opengl/3rdParty/src/freeglut-3.2.1 -BD:/Opengl/3rdParty/src/freeglut-3.2.1/build --check-stamp-file D:/Opengl/3rdParty/src/freeglut-3.2.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\FreeGLUTConfig.cmake.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeCCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeCXXCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeRCCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeSystem.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\config.h.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\freeglut.pc.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\freeglut.rc.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\src\fg_version.h.in;D:\software\cmake\share\cmake-3.21\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\software\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckFunctionExists.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFiles.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckTypeSize.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindOpenGL.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\software\cmake\share\cmake-3.21\Modules\GNUInstallDirs.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\software\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule D:/Opengl/3rdParty/src/freeglut-3.2.1/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+D:\software\cmake\bin\cmake.exe -SD:/Opengl/3rdParty/src/freeglut-3.2.1 -BD:/Opengl/3rdParty/src/freeglut-3.2.1/build --check-stamp-file D:/Opengl/3rdParty/src/freeglut-3.2.1/build/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\FreeGLUTConfig.cmake.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeCCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeCXXCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeRCCompiler.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\3.21.0-rc1\CMakeSystem.cmake;D:\Opengl\3rdParty\src\freeglut-3.2.1\config.h.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\freeglut.pc.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\freeglut.rc.in;D:\Opengl\3rdParty\src\freeglut-3.2.1\src\fg_version.h.in;D:\software\cmake\share\cmake-3.21\Modules\BasicConfigVersion-AnyNewerVersion.cmake.in;D:\software\cmake\share\cmake-3.21\Modules\CMakeCInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeCXXInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeCommonLanguageInclude.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeGenericSystem.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeInitializeConfigs.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeLanguageInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakePackageConfigHelpers.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeRCInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInformation.cmake;D:\software\cmake\share\cmake-3.21\Modules\CMakeSystemSpecificInitialize.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckFunctionExists.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFile.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFileCXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckIncludeFiles.cmake;D:\software\cmake\share\cmake-3.21\Modules\CheckTypeSize.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\MSVC-C.cmake;D:\software\cmake\share\cmake-3.21\Modules\Compiler\MSVC-CXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindOpenGL.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindPackageHandleStandardArgs.cmake;D:\software\cmake\share\cmake-3.21\Modules\FindPackageMessage.cmake;D:\software\cmake\share\cmake-3.21\Modules\GNUInstallDirs.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-C.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC-CXX.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows-MSVC.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\Windows.cmake;D:\software\cmake\share\cmake-3.21\Modules\Platform\WindowsPaths.cmake;D:\software\cmake\share\cmake-3.21\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">D:\Opengl\3rdParty\src\freeglut-3.2.1\build\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="D:\Opengl\3rdParty\src\freeglut-3.2.1\progs\demos\One\one.c" />
+    <ResourceCompile Include="D:\Opengl\3rdParty\src\freeglut-3.2.1\progs\demos\One\one.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\Opengl\3rdParty\src\freeglut-3.2.1\build\ZERO_CHECK.vcxproj">
+      <Project>{7951375F-1FB0-3D39-A630-B13D0ED4F812}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="D:\Opengl\3rdParty\src\freeglut-3.2.1\build\freeglut.vcxproj">
+      <Project>{87563449-34B4-3320-B7B0-B6D7B1A2CFFB}</Project>
+      <Name>freeglut</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
